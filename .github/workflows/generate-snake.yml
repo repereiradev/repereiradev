@@ -24,8 +24,9 @@ jobs:
 
       - name: Adicionar Snake ao README
         run: |
-          git config --global user.name "seu-usuario-github"
-          git config --global user.email "seu-email-github"
+        git config --global user.name "repereiradev"
+git config --global user.email "recrspereira@sapo.pt"
+
           git add -A
           git commit -m "Atualizar snake animation"
           git push
