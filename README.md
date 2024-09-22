@@ -18,7 +18,7 @@
   <img align="center" alt="repereiradev-Bootstrap" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg">
   <img align="center" alt="repereiradev-ReactJS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
   <img align="center" alt="repereiradev-PHP" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg">
-  <img align="center" alt="repereiradev-Laravel" height="30" width="40" src="https://github.com/devicons/devicon/raw/master/icons/laravel/laravel-plain.svg">
+  <img align="center" alt="repereiradev-Laravel" height="30" width="40" src="[https://github.com/devicons/devicon/raw/master/icons/laravel/laravel-plain.svg](https://cdn.worldvectorlogo.com/logos/laravel-2.svg)">
   <img align="center" alt="repereiradev-Codeigniter" height="30" width="40" src="https://cdn.worldvectorlogo.com/logos/codeigniter.svg">
   <img align="center" alt="repereiradev-NET-MVC" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dotnetcore/dotnetcore-original.svg">
   <img align="center" alt="repereiradev-Csharp" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg">
