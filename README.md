@@ -1,9 +1,11 @@
 ## Welcome to my GitHub! 👋
 
-🎓 I'm currently studying Software Engineering at UNIGRAN (EAD).  
-💻 Frontend: HTML, CSS, JavaScript, Bootstrap, React JS.  
-🔧 Backend: PHP, CodeIgniter, Laravel, Microsoft .NET MVC.  
-🗄️ Database: MySQL, Microsoft SQL Server.
+🎓 I'm currently studying **Software Engineering** at UNIGRAN - Level VI (Bachelor's Degree).  
+🎓 I hold a degree in **Technologies and Information Systems Programming** from CINEL - Level V (Technical Course).
+
+💻 **Frontend**: HTML, CSS, JavaScript, Bootstrap, React JS.  
+🔧 **Backend**: PHP, CodeIgniter, Laravel, Microsoft .NET MVC.  
+🗄️ **Database**: MySQL, Microsoft SQL Server.
 
 <div style="display: inline_block"><br>
   <img align="center" alt="repereiradev-HTML5" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
