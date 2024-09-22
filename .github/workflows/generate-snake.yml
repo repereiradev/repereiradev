@@ -19,7 +19,7 @@ jobs:
       - name: Gerar Snake Game
         uses: Platane/snk@master
         with:
-          github_user_name: seu-usuario-github
+          github_user_name: repereiradev
           outputs: svg
 
       - name: Adicionar Snake ao README
