@@ -1,32 +1,28 @@
-name: Generate Snake Animation
-on:
+name: Gerar Animação Snake
 
-  push:
-    branches:
-      - master
+on:
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "0 0 * * *" # Roda diariamente
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout do repositório
+      - name: Checkout do Repositório
         uses: actions/checkout@v2
 
-
-      - name: Gerar Snake Game
-        uses: Platane/snk@master
+      - name: Gerar Animação Snake
+        uses: Platane/snk@v2
         with:
-          github_user_name: repereiradev
-          outputs: svg
+          github_user_name: ${{ github.repository_owner }}
+          output: dist/snake.svg
 
-      - name: Adicionar Snake ao README
+      - name: Enviar Animação Snake para o GitHub
         run: |
-        git config --global user.name "repereiradev"
-git config --global user.email "recrspereira@sapo.pt"
-
-          git add -A
-          git commit -m "Atualizar snake animation"
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add dist/snake.svg
+          git commit -m "Gerar Animação Snake"
           git push
