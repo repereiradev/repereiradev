@@ -23,7 +23,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           github_user_name: 'repereiradev'  
-      # Envia a animação gerada para o repositório GitHub
+
       - name: Commit da Animação Snake
         run: |
           git config --global user.name 'github-actions[bot]'
