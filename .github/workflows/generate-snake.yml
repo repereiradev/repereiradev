@@ -1,6 +1,5 @@
 name: Gerar Animação Snake
 
-
 on:
   push:
     branches:
@@ -13,16 +12,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Faz o checkout do repositório
       - name: Checkout do Repositório
         uses: actions/checkout@v2
 
-      # Gera a animação da cobrinha usando Platane/snk
       - name: Gerar Animação Snake
         uses: Platane/snk@v2
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          github_user_name: 'repereiradev'  
+          github_user_name: 'repereiradev'
+
+      - name: Mover o Arquivo SVG para o Diretório Output
+        run: |
+          mkdir -p output
+          mv dist/github-contribution-grid-snake.svg output/github-contribution-grid-snake.svg
 
       - name: Commit da Animação Snake
         run: |
