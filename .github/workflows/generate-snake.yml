@@ -18,18 +18,17 @@ jobs:
       - name: Gerar Animação Snake
         uses: Platane/snk@v2
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          github_user_name: 'repereiradev'
+          github_user_name: 'repereiradev'  # Nome de usuário do GitHub
 
       - name: Mover o Arquivo SVG para o Diretório Output
         run: |
           mkdir -p output
           mv dist/github-contribution-grid-snake.svg output/github-contribution-grid-snake.svg
 
-      - name: Commit da Animação Snake
+      - name: Commit da Animação Snake no Branch Output
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add -A
+          git add output/github-contribution-grid-snake.svg
           git commit -m 'Atualizar animação Snake'
-          git push
+          git push -u origin output --force
